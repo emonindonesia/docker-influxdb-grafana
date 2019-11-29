@@ -2,7 +2,7 @@
 
 The instructions are specifically for a GCE instance with a Container Optimized OS.
 
-InfluxDB is this simple configuration is not password protected. Grafana user/pass starts with admin/admin 
+InfluxDB in this simple configuration is not password protected. Grafana user/pass starts with admin/admin 
 
 
 1. Get the stack:
