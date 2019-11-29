@@ -1,9 +1,10 @@
-# Docker-compose files for a simple uptodate
-# InfluxDB & Grafana stack
+# Docker-compose files for a simple InfluxDB & Grafana stack
 
 The instructions are specifically for a GCE instance with a Container Optimized OS.
 
 For most other OS, install Docker and Docker-Compose and skip Step 2.
+
+InfluxDB is this simple configuration is not password protected.
 
 
 1. Get the stack:
