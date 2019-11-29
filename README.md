@@ -6,7 +6,7 @@ The instructions are specifically for a GCE instance with a Container Optimized 
 For most other OS, install Docker and Docker-Compose and skip Step 2.
 
 
-1. Get the stack (only once):
+1. Get the stack:
 
 ```
 git clone https://github.com/emonindonesia/docker-influxdb-grafana && cd docker-influxdb-grafana
