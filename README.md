@@ -5,19 +5,21 @@
 Get the stack (only once):
 
 ```
-git clone https://github.com/emonindonesia/docker-influxdb-grafana
-cd docker-influxdb-grafana
-docker pull grafana/grafana
-docker pull influxdb
+git clone https://github.com/emonindonesia/docker-influxdb-grafana && cd docker-influxdb-grafana
+
+docker run docker/compose:1.24.0 version
+
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD:$PWD" -w="$PWD" docker/compose:1.24.0 up -d
+
 
 ```
 
 Run your stack:
 
 ```
-sudo mkdir -p /srv/docker/grafana/data
-docker-compose up -d
-sudo chown -R 472:472 /srv/docker/grafana/data
+docker run docker/compose:1.24.0 version
+
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD:$PWD" -w="$PWD" docker/compose:1.24.0 up -d
 
 ```
 
