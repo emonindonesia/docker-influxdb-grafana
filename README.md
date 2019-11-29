@@ -4,7 +4,7 @@ The instructions are specifically for a GCE instance with a Container Optimized 
 
 For most other OS, install Docker and Docker-Compose and skip Step 2.
 
-InfluxDB is this simple configuration is not password protected.
+InfluxDB is this simple configuration is not password protected. Grafana user/pass starts with admin/admin 
 
 
 1. Get the stack:
